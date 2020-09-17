@@ -283,3 +283,27 @@ nav { display: none; }
     opacity: .5;
 }
 
+/* footer */
+
+.footer {
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+.footer a { color: inherit}
+
+.footer__link {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+}
+
+.footer__link:hover,
+.social-list__ link:hover {
+opacity: .7;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
