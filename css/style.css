@@ -135,6 +135,12 @@ nav { display: none; }
     display: inline-block;
 }
 
+@media (min-width: 200px) {
+    .intro-img {
+        height: auto;
+        max-width: 250px;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -154,7 +160,8 @@ nav { display: none; }
        width: 50%;
    }
    .intro-img {
-       width: 50%;
+       height: auto;
+       max-width: 450px;
    }
 
    .section__subtitle--intro {
